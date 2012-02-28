@@ -19,7 +19,7 @@ Installation
 
 Blink
 ----------------------------
-`
+`````
 #include <LED.h>
 
 int LEDArray[] = {11,8,9}; // Red, Green, Blue
@@ -37,7 +37,7 @@ void loop() {
   delay(100);
   LED1.Fade(LEDArray, end_color3 , start_color3, 0); // 0 for no delay
 }
-`
+`````
 
 Fade
 ---------------------------------
