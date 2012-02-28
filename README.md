@@ -1,6 +1,6 @@
 LED Library - Arduino RGB LED Library
 ==================================================
-<img src="http://farm8.staticflickr.com/7188/6789322792_509a2239bb_o.jpg">Arduino</img>
+<img src="http://farm8.staticflickr.com/7188/6789322792_509a2239bb_o.jpg">
 
 Contribution
 --------------------------------------
@@ -9,7 +9,8 @@ By God and in the spirit of open source software development, please consider he
 
 Hardware Setup
 --------------------------------------
-<img src="http://farm8.staticflickr.com/7040/6789181918_5f262b4b9a_o.png"></img>
+<img src="http://farm8.staticflickr.com/7040/6789181918_5f262b4b9a_o.png">
+
 http://fritzing.org/projects/colored-light-rgb-led/
 
 Installation
