@@ -10,17 +10,16 @@ In the spirit of open source software development, please consider contributing 
 Installation
 --------------------------------------
 
-1. Copy the source code to '\Arduino\arduino-1.0\libraries\LED'
-2. Include the Library Header '#include <LED.h>' in your sketch.
-3. Define your Pins 'int LEDArray[] = {11,8,9};' First one is RED, Green, Blue.
-4. Make your first LED Object 'LED LED1(LEDArray);'
+1. Copy the source code to `\Arduino\arduino-1.0\libraries\LED`
+2. Include the Library Header `#include <LED.h>` in your sketch.
+3. Define your Pins `int LEDArray[] = {11,8,9};` First one is RED, Green, Blue.
+4. Make your first LED Object `LED LED1(LEDArray);`
 
 
 
 Blink
 ----------------------------
-
-'''''
+`
 #include <LED.h>
 
 int LEDArray[] = {11,8,9}; // Red, Green, Blue
@@ -38,13 +37,12 @@ void loop() {
   delay(100);
   LED1.Fade(LEDArray, end_color3 , start_color3, 0); // 0 for no delay
 }
-'''''
-
+`
 
 Fade
 ---------------------------------
 
-'''''
+
 #include <LED.h>
 
 int LEDArray[] = {11,8,9}; // Red, Green, Blue
@@ -63,12 +61,12 @@ void loop() {
   LED1.Fade(LEDArray, end_color3 , start_color3, 5);
 }
 
-'''''
+
 
 Pulse
 ---------------
 
-'''''
+
 #include <LED.h>
 
 int LEDArray[] = {11,8,9}; // Red, Green, Blue
@@ -86,7 +84,7 @@ void loop() {
   delay(100);
   LED1.Fade(LEDArray, end_color3 , start_color3, 1); // 1
 }
-'''''
+
 
 License
 ----------
