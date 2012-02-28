@@ -1,21 +1,24 @@
 LED Library - Arduino RGB LED Library
 ==================================================
+<img src="http://farm8.staticflickr.com/7188/6789322792_509a2239bb_o.jpg">Arduino</img>
 
 Contribution
 --------------------------------------
+By God and in the spirit of open source software development, please consider helping me with this Library.
 
-In the spirit of open source software development, please consider contributing to this Library.
 
+Hardware Setup
+--------------------------------------
+<img src="http://farm8.staticflickr.com/7040/6789181918_5f262b4b9a_o.png"></img>
+http://fritzing.org/projects/colored-light-rgb-led/
 
 Installation
 --------------------------------------
 
 1. Copy the source code to `\Arduino\arduino-1.0\libraries\LED`
 2. Include the Library Header `#include <LED.h>` in your sketch.
-3. Define your Pins `int LEDArray[] = {11,8,9};` First one is RED, Green, Blue.
+3. Define your Pins `int LEDArray[] = {11,8,9};` First one is Red, Green, Blue.
 4. Make your first LED Object `LED LED1(LEDArray);`
-
-
 
 Blink
 ----------------------------
@@ -41,8 +44,7 @@ void loop() {
 
 Fade
 ---------------------------------
-
-
+`````
 #include <LED.h>
 
 int LEDArray[] = {11,8,9}; // Red, Green, Blue
@@ -60,13 +62,10 @@ void loop() {
   delay(100);
   LED1.Fade(LEDArray, end_color3 , start_color3, 5);
 }
-
-
-
+`````
 Pulse
 ---------------
-
-
+`````
 #include <LED.h>
 
 int LEDArray[] = {11,8,9}; // Red, Green, Blue
@@ -84,8 +83,7 @@ void loop() {
   delay(100);
   LED1.Fade(LEDArray, end_color3 , start_color3, 1); // 1
 }
-
-
+`````
 License
 ----------
 
